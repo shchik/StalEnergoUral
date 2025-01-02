@@ -1,0 +1,34 @@
+[
+  {
+    "image": "/recommendations/recommendation1.svg",
+    "info": "Большой выбор качественной продукции"
+  },
+  {
+    "image": "/recommendations/recommendation2.svg",
+    "info": "Широкий выбор металлоизделий в одном месте"
+  },
+  {
+    "image": "/recommendations/recommendation3.svg",
+    "info": "Помощь в таможенном оформлении грузов"
+  },
+  {
+    "image": "/recommendations/recommendation4.svg",
+    "info": "Доставим продукцию по России или в другие страны"
+  },
+  {
+    "image": "/recommendations/recommendation5.svg",
+    "info": "Персональный подход к каждому клиенту"
+  },
+  {
+    "image": "/recommendations/recommendation6.svg",
+    "info": "Скидки и бонусы постоянным клиентам"
+  },
+  {
+    "image": "/recommendations/recommendation7.svg",
+    "info": "Предоставление товарного кредита и отсрочки оплаты"
+  },
+  {
+    "image": "/recommendations/recommendation8.svg",
+    "info": "Большой выбор услуг на складе: упаковка, резка в размер и пр."
+  }
+]

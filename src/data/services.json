@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Резка металлопроката",
+    "image": "/service-images/service1.svg"
+  },
+  {
+    "name": "Литье деталей и заготовок",
+    "image": "/service-images/service2.svg"
+  },
+  {
+    "name": "Шлифовка труб и металлопроката",
+    "image": "/service-images/service3.svg"
+  },
+  {
+    "name": "Токарные, фрезерные и слесарные работы по металлу",
+    "image": "/service-images/service4.svg"
+  },
+  {
+    "name": "Термообработка (закаливание металлоизделий)",
+    "image": "/service-images/service5.svg"
+  },
+  {
+    "name": "Цинкование металлоизделий",
+    "image": "/service-images/service6.svg"
+  },
+  {
+    "name": "Нанесение антикоррозионных покрытий",
+    "image": "/service-images/service7.svg"
+  },
+  {
+    "name": "Изоляция труб",
+    "image": "/service-images/service8.svg"
+  }
+]

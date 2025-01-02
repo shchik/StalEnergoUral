@@ -1,0 +1,72 @@
+.metall-cutting {
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  margin-bottom: 128px;
+
+  &-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    width: 90%;
+  }
+  &-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .metall-cutting-info {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .metall-cutting {
+    height: 700px;
+    margin: 0;
+
+    &-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      height: 600px;
+    }
+    &-container img {
+      display: none;
+    }
+
+    &-info {
+      height: 90%;
+      width: 80%;
+      align-items: start;
+    }
+    &-info ul {
+      margin-left: 1.5rem;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .metall-cutting-info {
+    width: 80%;
+    align-items: center;
+    text-align: center;
+  }
+  .metall-cutting-info ul {
+    margin-left: 1.5rem;
+    list-style: none;
+  }
+  .order-service {
+    margin-left: 5px;
+    margin-top: 20px;
+  }
+  .disadvatages ul,
+  .service-cost ul {
+    margin-left: 0;
+  }
+}
