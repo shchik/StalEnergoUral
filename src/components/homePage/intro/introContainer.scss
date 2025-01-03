@@ -101,10 +101,14 @@
     width: 60%;
     left: 5%;
     margin-top: 20px;
+
+    &-container {
+      font-size: 26px;
+    }
   }
 
   .marketing-container {
-    width: 60%;
+    width: 85%;
     left: 5%;
     justify-content: space-around;
   }
@@ -112,9 +116,11 @@
   .one-marketing {
     text-align: start;
   }
+  .one-marketing p {
+    font-size: 14px;
+  }
 
   .yellow-line {
-    width: 100%;
-    margin: 8px auto;
+    width: 80%;
   }
 }

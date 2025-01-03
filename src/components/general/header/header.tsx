@@ -123,7 +123,7 @@ const Header = () => {
             />
           </div>
         </div>
-        <p className="absolute -top-0 right-0 bg-darkgreen text-white font-medium h-6 w-6 text-center rounded-full">
+        <p className="shop-number absolute -top-0 right-0 bg-darkgreen text-white font-medium h-6 w-6 text-center rounded-full">
           2
         </p>
       </div>

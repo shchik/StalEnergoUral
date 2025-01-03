@@ -71,7 +71,11 @@ export default function Footer() {
             <span className="block">Все права защищены</span>
           </p>
           <div className="footer_button_container">
-            <img src="/footer-images/vk.svg" alt="" />
+            <img
+              src="/footer-images/vk.png"
+              alt=""
+              className="w-[30px] h-[30px]"
+            />
             <img
               src="/footer-images/instagram.png"
               alt="ыфвафыв"

@@ -6,7 +6,7 @@ export default function IntroContainer() {
     <div className="main-container relative">
       <div className="overlay-image-container absolute"></div>
       <div className="write-to-us">
-        <div className="font-bold text-4xl w-[450px]">
+        <div className="write-to-us-container font-bold text-4xl w-[450px]">
           <p>Надёжный поставщик</p>
           <p>Выгодный партнёр</p>
         </div>
