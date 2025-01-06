@@ -5,7 +5,7 @@ import Link from "next/link";
 import "./header.scss";
 import React from "react";
 
-const Header: React.FC<void> = () => {
+const Header: React.FC = () => {
   return (
     <header className="header">
       <div className="header_top">
