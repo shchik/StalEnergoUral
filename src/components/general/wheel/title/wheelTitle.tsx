@@ -1,3 +1,5 @@
+import WheelContainer from "../wheel";
+
 type TitleContainerProps = {
   title: string;
   isWatchAllVisible: boolean;
@@ -7,14 +9,14 @@ type TitleContainerProps = {
   goToNext: () => void;
 };
 
-export default function TitleContainer({
+const TitleContainer: React.FC<TitleContainerProps> = ({
   title,
   isWatchAllVisible,
   isLeftArrowDisabled,
   goToPrevious,
   isRightArrowDisabled,
   goToNext,
-}: TitleContainerProps) {
+}) => {
   return (
     <div className="title-container">
       <h1 className="text-2xl font-bold">{title}</h1>
@@ -62,4 +64,6 @@ export default function TitleContainer({
       </div>
     </div>
   );
-}
+};
+
+export default TitleContainer;

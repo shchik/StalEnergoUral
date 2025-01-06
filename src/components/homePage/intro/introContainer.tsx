@@ -1,7 +1,7 @@
 import HomePageButton from "../../UI/customButton";
 import "./introContainer.scss";
 
-export default function IntroContainer() {
+const IntroContainer: React.FC = () => {
   return (
     <div className="main-container relative">
       <div className="overlay-image-container absolute"></div>
@@ -40,4 +40,6 @@ export default function IntroContainer() {
       </div>
     </div>
   );
-}
+};
+
+export default IntroContainer;

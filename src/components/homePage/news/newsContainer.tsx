@@ -10,7 +10,7 @@ interface NewsContainerProps {
   array: News[] | string[] | Metall[] | Offer[];
 }
 
-export default function NewsContainer({ array }: NewsContainerProps) {
+const NewsContainer: React.FC<NewsContainerProps> = ({ array }) => {
   if (!Array.isArray(array)) return null;
 
   return (
@@ -34,4 +34,6 @@ export default function NewsContainer({ array }: NewsContainerProps) {
       </div>
     </div>
   );
-}
+};
+
+export default NewsContainer;

@@ -2,7 +2,7 @@ import Image from "next/image";
 import HomePageButton from "../../UI/customButton";
 import "./footer.scss";
 
-export default function Footer() {
+const Footer: React.FC = () => {
   return (
     <footer className="footer">
       <div className="footer_top_container">
@@ -86,4 +86,6 @@ export default function Footer() {
       </div>
     </footer>
   );
-}
+};
+
+export default Footer;

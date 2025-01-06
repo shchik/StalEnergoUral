@@ -19,7 +19,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const pathname = usePathname();
+  const pathname: string = usePathname();
   return (
     <html lang="en">
       <head>

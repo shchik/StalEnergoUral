@@ -9,7 +9,7 @@ interface ClientsContainerProps {
   array: string[] | Metall[] | Offer[] | News[];
 }
 
-export default function ClientsContainer({ array }: ClientsContainerProps) {
+const ClientsContainer: React.FC<ClientsContainerProps> = ({ array }) => {
   if (!Array.isArray(array)) return null;
 
   return (
@@ -27,4 +27,6 @@ export default function ClientsContainer({ array }: ClientsContainerProps) {
       })}
     </ul>
   );
-}
+};
+
+export default ClientsContainer;

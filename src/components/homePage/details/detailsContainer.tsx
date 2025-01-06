@@ -7,7 +7,9 @@ type DetailsContainerProps = {
   details: Detail[];
 };
 
-export default function DetailsContainer({ details }: DetailsContainerProps) {
+const DetailsContainer: React.FC<DetailsContainerProps> = ({
+  details,
+}: DetailsContainerProps) => {
   return (
     <div className="flex flex-col items-center justify-center">
       <div className="second-block-container">
@@ -47,4 +49,6 @@ export default function DetailsContainer({ details }: DetailsContainerProps) {
       </div>
     </div>
   );
-}
+};
+
+export default DetailsContainer;

@@ -16,12 +16,12 @@ interface WheelContainerProps {
   }>;
 }
 
-export default function WheelContainer({
+const WheelContainer: React.FC<WheelContainerProps> = ({
   array,
   title,
   isWatchAllVisible,
   ArrayComponent,
-}: WheelContainerProps) {
+}) => {
   const [currentMetallIndex, setcurrentMetallIndex] = React.useState(0);
   const [isRightArrowDisabled, setIsRightArrowDisabled] = React.useState(false);
   const [isLeftArrowDisabled, setIsLeftArrowDisabled] = React.useState(true);
@@ -99,4 +99,6 @@ export default function WheelContainer({
       </div>
     </div>
   );
-}
+};
+
+export default WheelContainer;

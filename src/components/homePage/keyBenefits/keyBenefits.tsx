@@ -1,13 +1,11 @@
 import { Recommendation } from "@/types/Recommendation";
 import "./keyBenefits.scss";
 
-interface FifthMainContainerProps {
+interface KeyBenefitsProps {
   recommendations: Recommendation[];
 }
 
-export default function KeyBenefits({
-  recommendations,
-}: FifthMainContainerProps) {
+const KeyBenefits: React.FC<KeyBenefitsProps> = ({ recommendations }) => {
   return (
     <div className="fifth-container-overlay">
       <div className="fifth-container">
@@ -25,4 +23,6 @@ export default function KeyBenefits({
       </div>
     </div>
   );
-}
+};
+
+export default KeyBenefits;
