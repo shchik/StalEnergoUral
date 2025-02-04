@@ -1,0 +1,19 @@
+.offers {
+	display: grid;
+	gap: 50px;
+	grid-template-columns: repeat(3, 1fr);
+	align-items: start;
+	margin-top: 50px;
+	overflow: hidden;
+
+	@media (max-width: 1000px) {
+		gap: 20px;
+	}
+
+	@media (max-width: 768px) {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}

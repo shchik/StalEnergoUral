@@ -1,0 +1,74 @@
+.metall {
+	display: flex;
+	justify-content: center;
+	height: 70vh;
+	margin-bottom: 128px;
+
+	&__container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		justify-content: center;
+		width: 90%;
+	}
+	&__info {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 60%;
+	}
+
+	@media (max-width: 1000px) {
+		&__info {
+			width: 80%;
+		}
+	}
+
+	@media (max-width: 768px) {
+		height: 700px;
+		margin: 0;
+
+		&__container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+			height: 600px;
+
+			img {
+				display: none;
+			}
+		}
+
+		&__info {
+			height: 90%;
+			width: 80%;
+			align-items: start;
+
+			ul {
+				margin-left: 1.5rem;
+			}
+		}
+	}
+
+	@media (max-width: 500px) {
+		&__info {
+			width: 80%;
+			align-items: center;
+			text-align: center;
+
+			ul {
+				margin-left: 1.5rem;
+				list-style: none;
+			}
+		}
+		&__info,
+		&__order-service {
+			margin-left: 5px;
+			margin-top: 20px;
+		}
+		&__disadvatages ul,
+		&__service-cost ul {
+			margin-left: 0;
+		}
+	}
+}

@@ -1,0 +1,45 @@
+.recommendation {
+	display: flex;
+	align-items: center;
+	border: 1px solid #bdbdbd;
+	height: 150%;
+	width: 100%;
+
+	p {
+		width: 40%;
+		margin-left: 20px;
+	}
+
+	@media (max-width: 1280px) {
+		height: 120%;
+		margin-bottom: 10px;
+
+		p {
+			width: 50%;
+			margin-left: 15px;
+		}
+	}
+
+	@media (max-width: 768px) {
+		p {
+			width: 80%;
+			margin-left: 0;
+		}
+
+		img {
+			margin-left: 0;
+		}
+	}
+
+	@media (max-width: 500px) {
+		p {
+			width: 100%;
+			margin-left: 0;
+			text-align: center;
+		}
+
+		img {
+			margin-left: 0;
+		}
+	}
+}

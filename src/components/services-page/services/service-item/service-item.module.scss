@@ -1,0 +1,60 @@
+.service-item {
+	display: flex;
+	align-items: center;
+
+	&__image {
+		background-color: #f3aa3c;
+		padding: 1rem;
+		border-radius: 8px;
+		margin-right: 1.5rem;
+	}
+	&__text {
+		width: 50%;
+		text-decoration: underline;
+		text-decoration-style: solid;
+		font-size: 1rem;
+	}
+
+	@media (max-width: 1000px) {
+		justify-content: center;
+		text-align: center;
+
+		&__image {
+			margin-right: 1rem;
+		}
+		&__text {
+			width: 70%;
+			text-align: center;
+		}
+	}
+
+	@media (max-width: 768px) {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+
+		&__image {
+			margin-bottom: 1rem;
+		}
+		&__text {
+			width: 100%;
+			font-size: 1rem;
+		}
+	}
+
+	@media (max-width: 500px) {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+
+		&__image {
+			margin-bottom: 1rem;
+		}
+		&__text {
+			width: 100%;
+			font-size: 0.9rem;
+		}
+	}
+}

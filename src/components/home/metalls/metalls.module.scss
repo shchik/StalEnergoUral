@@ -1,0 +1,79 @@
+.metalls {
+	position: relative;
+	width: 100%;
+
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		list-style-type: none;
+		margin-top: 50px;
+	}
+
+	&__name {
+		margin-top: 3vh;
+		font-size: 16px;
+		font-weight: 500;
+	}
+	&__image {
+		width: 350px;
+		height: 200px;
+		object-fit: cover;
+		object-position: center;
+	}
+
+	li {
+		position: relative;
+		text-align: center;
+		border: 1px solid #e0e0e0;
+		margin-right: 20px;
+	}
+
+	@media (max-width: 1000px) {
+		.metalls {
+			display: flex;
+			justify-content: center;
+
+			&__container {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				row-gap: 10%;
+				column-gap: 10%;
+			}
+
+			&__name {
+				font-size: 14px;
+			}
+		}
+	}
+
+	@media (max-width: 768px) {
+		&__container {
+			flex-wrap: wrap;
+		}
+
+		&__name {
+			font-size: 14px;
+		}
+
+		&__image {
+			width: 250px;
+			height: 150px;
+		}
+	}
+
+	@media (max-width: 500px) {
+		&__container {
+			grid-template-columns: 1fr;
+			gap: 40px;
+		}
+
+		&__name {
+			font-size: 16px;
+		}
+
+		&__image {
+			width: 100%;
+			height: auto;
+		}
+	}
+}

@@ -1,11 +1,11 @@
-import MetallCutting from "@/components/servicesPage/metallCutting/metallCutting";
-import Services from "@/components/servicesPage/services/services";
+import MetallCutting from "@/components/services-page/metall-cutting/metall-cutting";
+import Services from "@/components/services-page/services/services";
 
 export default function ServicesPage() {
-  return (
-    <main>
-      <Services></Services>
-      <MetallCutting></MetallCutting>
-    </main>
-  );
+	return (
+		<main>
+			<Services></Services>
+			<MetallCutting></MetallCutting>
+		</main>
+	);
 }
